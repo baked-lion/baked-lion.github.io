@@ -1,0 +1,212 @@
+@font-face {
+  font-family: Font1;
+  src: url("fonts/GloriaHallelujah.ttf");
+}
+body {
+  background-color: rgb(41, 0, 0);
+}
+
+
+#div1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgb(182, 6, 6);
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+  font-size: 20px;
+}
+  
+.even {
+  color: rgb(35, 35, 145);
+  font-family: "Gloria Hallelujah";
+  font-weight: lighter;
+  font-style: italic;
+  margin-left: 110px;
+  height: 60%;
+  width: 50%;
+}
+.odd {
+  margin-left: 110px;
+  height: 60%;
+  width: 50%;
+  color: azure;
+  font-family: "Font1";
+  font-weight: bold;
+  font-style: oblique;
+}
+#h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 95%;
+  margin-left: 10px;
+  text-align: center;
+  color: rgb(253, 253, 255);
+  font-family: "Font1";
+  font-weight: bolder;
+  font-style: italic;
+  border-style: groove;
+  background-color: rgb(151, 147, 173);
+  border: 5px solid rgb(87, 15, 15);
+  border-radius: 16px;
+  text-shadow: 3px 3px 1px rgb(3, 0, 0);
+}
+
+#img1 {
+  height: 100px;
+  width: 100px;
+  margin-top: 1px;
+  margin-left: 8px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px rgb(0, 0, 0);
+  border: 5px solid rgb(247, 247, 247);
+  background-color: rgb(85, 10, 10);
+  float: left;
+}
+#img2 {
+  height: 100px;
+  width: 100px;
+  margin-top: 1px;
+  margin-left: 8px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px rgb(0, 0, 0);
+  border: 5px solid rgb(247, 247, 247);
+  background-color: rgb(85, 10, 10);
+  float: left;
+}
+
+#img3 {
+  height: 100px;
+  width: 100px;
+  margin-top: 1px;
+  margin-left: 8px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px rgb(0, 0, 0);
+  border: 5px solid rgb(247, 247, 247);
+  background-color: rgb(85, 10, 10);
+  float: left;
+}
+
+#img4 {
+  height: 100px;
+  width: 100px;
+  margin-top: 1px;
+  margin-left: 8px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px rgb(0, 0, 0);
+  border: 5px solid rgb(247, 247, 247);
+  background-color: rgb(85, 10, 10);
+  float: left;
+}
+
+#img5 {
+  height: 100px;
+  width: 100px;
+  margin-top: 1px;
+  margin-left: 8px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 2px rgb(0, 0, 0);
+  border: 5px solid rgb(247, 247, 247);
+  background-color: rgb(85, 10, 10);
+  float: left;
+}
+
+#p1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: 130px;
+  width: 60%;
+  padding: 20px;
+  font-family: "Gloria Hallelujah";
+}
+
+#p2 {
+  margin-left: 130px;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(107, 15, 15, 0.2);
+  font-family: "Courgette";
+  color: rgb(9, 202, 58);
+}
+
+#p3 {
+  margin-left: 130px;
+  width: 60%;
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Reenie Beanie";
+  font-weight: lighter;
+  font-style: italic;
+  color: rgba(17, 1, 1, 0.5);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#p4 {
+  margin-left: 130px;
+  width: 60%;
+  margin-right: 110px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Edu Australia VIC WA NT Hand Arrows";
+  color: #000;
+  font-size: 30px;
+}
+
+#p5 {
+  margin-left: 130px;
+  width: 60%;
+  padding: 10px;
+  font-family: "Rubik Distressed";
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(50, 17, 170);
+
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 100px;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#span1 {
+  background-image: url(photos/1.png);
+  align-items: center;
+  display: flex;
+}
+#span2 {
+  background-image: url(photos/2.jpg);
+  align-items: center;
+  display: flex;
+}
+#span3 {
+  background-image: url(photos/3.jpg);
+  align-items: center;
+  display: flex;
+}
+#span4 {
+  background-image: url(photos/4.png);
+  align-items: center;
+  display: flex;
+}
+#span5 {
+  background-image: url(photos/5.jpg);
+  align-items: center;
+  display: flex;
+}
+.paragraphs {
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  border-style: outset;
+  border-width: 5px;
+  background-color: rgba(117, 9, 9, 0.5);
+}
